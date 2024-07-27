@@ -12,3 +12,5 @@ To enhance the educational experience in Nepal through a feedback system that is
 ●	Facilitate the creation, management, and analysis of surveys tailored to the Nepalese education context.
 ●	Provide a flexible platform that supports various question types and survey formats.
 ●	Enable comprehensive CRUD operations for surveys and user accounts.
+
+**Note that: I have attached the reports of both part A and part B**
