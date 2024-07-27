@@ -5,7 +5,7 @@ To сreаte а seсure, effiсient, аnԁ culturally relevаnt survey mаnаgeme
 **Vision of the Project**<br>
 To enhance the educational experience in Nepal through a feedback system that is accessible, reliable, and reflective of the needs and preferences of students and educators.
 
-**Objectives of the Project**
+**Objectives of the Project**<br>
 ●	Develop a user-friendly survey management system tailored for the Nepalese educational context.
 ●	Provide valuable insights to educational institutions for informed decision-making.
 ●	Ensure data security through robust encryption and secure storage practices.
