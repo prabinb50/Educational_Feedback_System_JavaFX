@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" style="-fx-background-color: #F9CE7B;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.InitialPageController">
+   <children>
+      <Label fx:id="userINFO" prefHeight="39.0" prefWidth="519.0" text="Welcome to Education Feedback System">
+         <VBox.margin>
+            <Insets left="27.0" top="104.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#buttonForAdminSignIn" style="-fx-background-color: #FF7444;" text="Sign In as Admin" textFill="#fdfcff" textOverrun="CLIP" wrapText="true">
+         <VBox.margin>
+            <Insets bottom="15.0" left="30.0" top="30.0" />
+         </VBox.margin></Button>
+      <Button mnemonicParsing="false" onAction="#buttonForCreatorSignIn" style="-fx-background-color: #FF7444;" text="Sign In as Survey Creator" textFill="#f8f1f1">
+         <VBox.margin>
+            <Insets bottom="15.0" left="184.0" top="-40.0" />
+         </VBox.margin></Button>
+      <Button mnemonicParsing="false" onAction="#buttonForParticipantSignIn" style="-fx-background-color: #FF7444;" text="Sign In as Participant" textFill="#f2eded">
+         <VBox.margin>
+            <Insets left="375.0" top="-40.0" />
+         </VBox.margin></Button>
+   </children>
+</VBox>
+
+

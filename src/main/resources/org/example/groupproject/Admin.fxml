@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="465.0" prefWidth="500.0" style="-fx-background-color: #FFDD9A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.AdminController">
+   <children>
+      <Label layoutX="114.0" layoutY="10.0" text="Education Feedback System" textFill="#ff7444">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="182.0" layoutY="47.0" text="Welcome Back :)">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="5.0" layoutY="75.0" text="To keep connected with us please login by using email or username and password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="279.0" layoutY="115.0" text="Sign In as Admin" textFill="#f41010">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="284.0" layoutY="151.0" text="Email/Username" />
+      <TextField fx:id="email" layoutX="280.0" layoutY="169.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="280.0" layoutY="208.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="280.0" layoutY="224.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label layoutX="283.0" layoutY="258.0" text="Forget Password?" textFill="BLUE" />
+      <Button layoutX="282.0" layoutY="289.0" mnemonicParsing="false" onAction="#buttonForLogin" style="-fx-background-color: blue;" text="Login" textFill="#fdf9f9" />
+      <Label layoutX="261.0" layoutY="360.0" text="Don't have an account?" textFill="#0f0f10">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="377.0" layoutY="357.0" mnemonicParsing="false" onAction="#buttonForAdminSignUp" style="-fx-background-color: blue;" text="Sign Up as Admin" textFill="#fdfafa">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+
+      <Label fx:id="LoginINFO" layoutX="267.0" layoutY="240.0" />
+      <Button layoutX="301.0" layoutY="402.0" mnemonicParsing="false" style="-fx-background-color: blue;" onAction="#buttonForAdminSignInCancel" text="Back" textFill="#f4f0f0" />
+      <ImageView fitHeight="150.0" fitWidth="170.0" layoutX="61.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image 8.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

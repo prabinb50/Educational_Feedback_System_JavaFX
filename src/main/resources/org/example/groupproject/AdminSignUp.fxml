@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane blendMode="MULTIPLY" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: #FFDD9A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.AdminSignUpController">
+   <children>
+   <Label layoutX="114.0" layoutY="10.0" text="EDUCATION FEEDBACK SYSTEM" textFill="#ff7444">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Label>
+   <Label layoutX="150.0" layoutY="45.0" text="Welcome :)">
+      <font>
+         <Font name="System Bold" size="13.0" />
+      </font></Label>
+   <Label layoutX="114.0" layoutY="75.0" text="Let's make it happen together">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+   <Label layoutX="148.0" layoutY="116.0" text="Full Name" />
+   <TextField fx:id="adminName" layoutX="148.0" layoutY="138.0" />
+   <Label layoutX="148.0" layoutY="175.0" text="Email" />
+   <TextField fx:id="adminEmail" layoutX="148.0" layoutY="195.0" />
+   <Label layoutX="148.0" layoutY="232.0" text="Username" />
+   <TextField fx:id="adminUsername" layoutX="148.0" layoutY="251.0" />
+   <Label layoutX="148.0" layoutY="289.0" text="Password" />
+   <PasswordField fx:id="adminPassword" layoutX="148.0" layoutY="308.0" />
+   <Label layoutX="148.0" layoutY="347.0" text="Confirm Password" />
+   <PasswordField fx:id="adminConfirmPassword" layoutX="148.0" layoutY="369.0" />
+   <Button layoutX="191.0" layoutY="419.0" mnemonicParsing="false" onAction="#buttonForAdminRegister" style="-fx-background-color: blue;" text="Register" textFill="#fdf7f7" />
+   <Label layoutX="123.0" layoutY="488.0" text="Already have an account?">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Label>
+   <Button layoutX="272.0" layoutY="482.0" mnemonicParsing="false" onAction="#buttonForAdminLogin" style="-fx-background-color: blue;" text="Login" textFill="#f8f4f4" />
+   <Label fx:id="userINFO" />
+
+      <ImageView fitHeight="550.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="102.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView blendMode="MULTIPLY" fitHeight="550.0" fitWidth="400.0" opacity="0.49" pickOnBounds="true">
+         <image>
+            <Image url="@register (1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="22.0" layoutX="124.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Vector (2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="22.0" layoutX="123.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="14.0" fitWidth="22.0" layoutX="123.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Group.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="125.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Vector  (1) .png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="125.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image 16.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="334.0" layoutY="483.0" mnemonicParsing="false" style="-fx-background-color: blue;" onAction="#buttonForAdminSignUpCacel" text="Cancel" textFill="#ede7e7" />
+   </children>
+</AnchorPane>

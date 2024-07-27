@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="730.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SurveyCreatorRegister">
+
+    <children>
+        <Label layoutX="127.0" layoutY="10.0" text="EDUCATION FEEDBACK SYSTEM">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <Label layoutX="183.0" layoutY="45.0" text="Welcome :)" />
+        <Label layoutX="136.0" layoutY="75.0" text="Let's make it happen together" />
+        <Label layoutX="148.0" layoutY="116.0" text="Full Name" />
+        <TextField fx:id="creatorName" layoutX="148.0" layoutY="138.0" />
+        <Label layoutX="148.0" layoutY="175.0" text="Email" />
+        <TextField fx:id="creatorEmail" layoutX="148.0" layoutY="195.0" />
+        <Label layoutX="148.0" layoutY="232.0" text="Username" />
+        <TextField fx:id="creatorUsername" layoutX="148.0" layoutY="251.0" />
+        <Label layoutX="148.0" layoutY="467.0" text="Password" />
+        <PasswordField fx:id="creatorPassword" layoutX="148.0" layoutY="544.0" />
+        <Label layoutX="148.0" layoutY="527.0" text="Confirm Password" />
+        <PasswordField fx:id="creatorConfirmPassword" layoutX="148.0" layoutY="484.0" />
+        <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#buttonForCreatorRegister" style="-fx-background-color: blue;" text="Register" textFill="#fffcfc" />
+        <Label layoutX="118.0" layoutY="673.0" text="Already have an account?">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Button layoutX="272.0" layoutY="668.0" mnemonicParsing="false" onAction="#buttonForCreatorLogin" style="-fx-background-color: blue;" text="Login" textFill="#fff9f9" />
+        <Label fx:id="userINFO" />
+        <Label layoutX="148.0" layoutY="291.0" text="Gender" />
+        <ChoiceBox fx:id="creatorGender" layoutX="148.0" layoutY="308.0" prefWidth="150.0" />
+        <Label layoutX="148.0" layoutY="349.0" text="Faculty" />
+        <TextField fx:id="creatorFaculty" layoutX="148.0" layoutY="366.0" />
+        <Label layoutX="148.0" layoutY="406.0" text="Phone No." />
+        <TextField fx:id="creatorNo" layoutX="148.0" layoutY="423.0" />
+        <ImageView blendMode="MULTIPLY" fitHeight="754.0" fitWidth="451.0" opacity="0.47" pickOnBounds="true">
+            <image>
+                <Image url="@register (1).jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Vector (2).png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@2.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Group.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@gender.png" />
+            </image></ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@faculty.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@contact.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Vector  (1) .png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="127.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image 16.png" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

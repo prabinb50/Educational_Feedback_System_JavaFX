@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.EnterSurveyController">
+   <children>
+      <Label layoutX="168.0" layoutY="137.0" text="Please enter the login code to enter into the survey">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SCode" layoutX="221.0" layoutY="173.0" prefHeight="33.0" prefWidth="247.0" />
+      <Button layoutX="334.0" layoutY="216.0" mnemonicParsing="false" onAction="#EnterSurvey" text="Enter">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="272.0" layoutY="278.0" mnemonicParsing="false" text="Back in Participant Login Pge" />
+      <Label layoutX="348.0" layoutY="315.0" text="OR">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="331.0" layoutY="340.0" mnemonicParsing="false" text="Cancel" />
+      <Label fx:id="validationLabel" layoutX="413.0" layoutY="220.0" />
+   </children>
+</AnchorPane>

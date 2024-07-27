@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SurveyCreatorNewPageController">
+    <children>
+        <Label layoutX="233.0" layoutY="33.0" style="-fx-background-color: blue;" text="Survey Creator" textFill="#fff6f6">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Button layoutX="59.0" layoutY="211.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: blue;" text="View Survey" textFill="#fff7f7" />
+        <Button layoutX="59.0" layoutY="169.0" mnemonicParsing="false" onAction="#buttonForCreateSurvey" prefHeight="26.0" prefWidth="130.0" style="-fx-background-color: blue;" text="Create Survey" textFill="#fff9f9" />
+        <Label fx:id="userINFO" layoutX="244.0" layoutY="314.0" />
+        <ImageView blendMode="MULTIPLY" fitHeight="400.0" fitWidth="600.0" opacity="0.83" pickOnBounds="true">
+            <image>
+                <Image url="@create survey.jpg" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="447.0" style="-fx-background-color: #FFDD9A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.ParticipantSignUpController">
+    <children>
+        <Label layoutX="117.0" layoutY="10.0" text="EDUCATION FEEDBACK SYSTEM" textFill="#ff7444">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label layoutX="189.0" layoutY="45.0" text="Welcome :)">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <Label layoutX="137.0" layoutY="75.0" text="Let's make it happen together">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <Label layoutX="148.0" layoutY="116.0" text="Full Name" />
+        <TextField fx:id="participantSignUpName" layoutX="148.0" layoutY="138.0" />
+        <Label layoutX="148.0" layoutY="175.0" text="Email" />
+        <TextField fx:id="participantSignUpEmail" layoutX="148.0" layoutY="195.0" />
+        <Label layoutX="148.0" layoutY="232.0" text="Username" />
+        <TextField fx:id="participantSignUpUsername" layoutX="148.0" layoutY="251.0" />
+        <Label layoutX="148.0" layoutY="467.0" text="Password" />
+        <PasswordField fx:id="participantSignUpPassword" layoutX="148.0" layoutY="544.0" />
+        <Label layoutX="148.0" layoutY="527.0" text="Confirm Password" />
+        <PasswordField fx:id="participantSignUpConfirmPassword" layoutX="148.0" layoutY="484.0" />
+        <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpRegister" style="-fx-background-color: blue;" text="Register" textFill="#f4efef" />
+        <Label layoutX="118.0" layoutY="673.0" text="Already have an account?">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Button layoutX="272.0" layoutY="668.0" mnemonicParsing="false" onAction="#buttonForParticipantSignUpLogin" style="-fx-background-color: blue;" text="Login" textFill="#fbf9f9" />
+        <Label fx:id="userINFO" />
+        <Label layoutX="148.0" layoutY="291.0" text="Gender" />
+        <ChoiceBox fx:id="creatorGender" layoutX="148.0" layoutY="308.0" prefWidth="150.0" />
+        <Label layoutX="148.0" layoutY="349.0" text="Faculty" />
+        <TextField fx:id="participantSignUpFaculty" layoutX="148.0" layoutY="366.0" />
+        <Label layoutX="148.0" layoutY="406.0" text="Phone No." />
+        <TextField fx:id="participantSignUpNo" layoutX="148.0" layoutY="423.0" />
+        <ImageView blendMode="MULTIPLY" fitHeight="750.0" fitWidth="447.0" opacity="0.47" pickOnBounds="true">
+            <image>
+                <Image url="@register (1).jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="122.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Vector (2).png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="123.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@2.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="122.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Group.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="123.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@gender.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="124.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@faculty.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="124.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@contact.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="124.0" layoutY="487.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="20.0" fitWidth="19.0" layoutX="126.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Vector  (1) .png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="19.0" layoutX="127.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@image 16.png" />
+            </image>
+        </ImageView>
+      <Button layoutX="348.0" layoutY="668.0" mnemonicParsing="false" style="-fx-background-color: blue;" onAction="#buttonForParticipantSignUpCancel" text="Back " textFill="#f4eded" />
+    </children>
+</AnchorPane>
